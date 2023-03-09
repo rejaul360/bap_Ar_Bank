@@ -6,7 +6,7 @@ document.getElementById('btn-user').addEventListener('click', function(){
     const password = passwordFild.value;
     
     if(email === 'rejaul@.com' && password === "12345"){
-        window.location.href = 'http://127.0.0.1:5501/bank.html'
+        window.location.href = 'bank.html'
     }else{
        alert('apnar password & email vul hoyece please try again........!!!!')
     }
